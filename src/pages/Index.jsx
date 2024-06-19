@@ -27,21 +27,21 @@ const Index = () => {
             </Text>
             <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10} width="100%">
               <Box bg="white" boxShadow="md" borderRadius="md" overflow="hidden">
-                <Image src="https://via.placeholder.com/300" alt="Bottle 1" />
+                <Image src="/images/bottle1.jpg" alt="Stylish Bottle" />
                 <Box p={4}>
                   <Heading as="h3" size="md">Stylish Bottle</Heading>
                   <Text mt={2}>A stylish bottle that you can carry anywhere.</Text>
                 </Box>
               </Box>
               <Box bg="white" boxShadow="md" borderRadius="md" overflow="hidden">
-                <Image src="https://via.placeholder.com/300" alt="Bottle 2" />
+                <Image src="/images/bottle2.jpg" alt="Eco-Friendly Bottle" />
                 <Box p={4}>
                   <Heading as="h3" size="md">Eco-Friendly Bottle</Heading>
                   <Text mt={2}>An eco-friendly bottle made from sustainable materials.</Text>
                 </Box>
               </Box>
               <Box bg="white" boxShadow="md" borderRadius="md" overflow="hidden">
-                <Image src="https://via.placeholder.com/300" alt="Bottle 3" />
+                <Image src="/images/bottle3.jpg" alt="Functional Bottle" />
                 <Box p={4}>
                   <Heading as="h3" size="md">Functional Bottle</Heading>
                   <Text mt={2}>A functional bottle with multiple features.</Text>
